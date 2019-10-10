@@ -31,6 +31,10 @@ const router = new Router({
         {
           path: 'cinemas',
           component: Cinemas
+        },
+        {
+          path: '',
+          component: Films
         }
       ]
     },
